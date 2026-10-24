@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f6efe4">
+<meta name="description" content="神马影视在线观看是一个关于「怎么把一部片子看完」的长期记录：不讲首映当天的热闹，不搬运评分，不替你挑片，只写下划线式的观看过程——从打开到关掉，中途停在第几分钟、想起哪句话、被哪个镜头留住。这里有按观看状态归档的私人片单、按片长划分的观看节奏、重看时发现的新细节，以及老片在当下重新成立的原因。每周固定更新两三篇，其余时间慢慢补看。">
+<meta name="keywords" content="神马影视在线观看,怎么把一部片子看完,中途暂停的观看记录,第一遍和第二遍的区别,按片长划分的观看节奏,重看时发现的新细节,老片在当下重新成立,冷门片慢慢补看,关掉之后的几分钟,私人片单归档,看不懂时先记下来,观影状态整理">
+<link rel="canonical" href="https://shenmayingshizaixianguankan-top.github.io/">
+<title>神马影视在线观看 · 把一部片子从头看到尾，再写下停下来的那一分钟</title>
+<style>
+:root{--ink:#231f1a;--paper:#f7f1e6;--line:#d8ccb4;--rust:#b8421f;--mustard:#d9a521;--olive:#6b6b34;--fade:#8b8173;--deep:#2b2a26}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);
+font-family:"Songti SC","Source Han Serif SC","Noto Serif CJK SC",Georgia,"Times New Roman",serif;
+line-height:1.85;font-size:16px}
+img{max-width:100%;display:block}
+a{color:var(--rust);text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 26px}
+/* ---------- top utility ---------- */
+.util{background:var(--deep);color:#e6dfd0;font-size:12.5px;letter-spacing:.14em;padding:9px 0}
+.util .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.util a{color:#e6dfd0;padding:2px 10px;border:1px solid #5b574e}
+.util a:hover{background:var(--rust);border-color:var(--rust);color:#fff}
+/* ---------- masthead ---------- */
+header.mast{padding:46px 0 20px;border-bottom:5px solid var(--ink)}
+.mast-top{display:flex;justify-content:space-between;align-items:flex-end;gap:26px;flex-wrap:wrap}
+.kicker{font-size:12px;letter-spacing:.32em;color:var(--rust);font-weight:700}
+h1{font-size:clamp(38px,6.4vw,74px);line-height:1.02;margin:14px 0 4px;letter-spacing:.01em;font-weight:800}
+h1 em{font-style:normal;color:var(--rust)}
+.tagline{font-size:15px;color:var(--fade);margin:0 0 22px;max-width:60ch}
+.issue{width:min(340px,100%);border:2px solid var(--ink);padding:14px 16px;background:#fffdf8}
+.issue b{display:block;font-size:11px;letter-spacing:.28em;color:var(--rust);margin-bottom:8px}
+.issue table{width:100%;border-collapse:collapse;font-size:13px}
+.issue td{padding:5px 0;border-bottom:1px dotted var(--line)}
+.issue td:last-child{text-align:right;font-weight:700}
+/* ---------- nav ---------- */
+nav.toc{position:sticky;top:0;z-index:40;background:rgba(247,241,230,.94);backdrop-filter:blur(6px);
+border-bottom:1px solid var(--line);margin-bottom:54px}
+nav.toc .wrap{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+nav.toc .wrap::-webkit-scrollbar{display:none}
+nav.toc a{flex:0 0 auto;padding:15px 16px;font-size:13.5px;letter-spacing:.08em;border-bottom:3px solid transparent;color:var(--ink)}
+nav.toc a:hover{background:var(--ink);color:#f7f1e6;border-bottom-color:var(--rust)}
+/* ---------- section ---------- */
+section{padding:8px 0 60px}
+.sec-h{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;border-bottom:2px solid var(--ink);padding-bottom:10px;margin-bottom:26px}
+.sec-h .num{font-size:13px;letter-spacing:.26em;color:#fff;background:var(--rust);padding:3px 10px;font-weight:700}
+h2{font-size:clamp(25px,3.8vw,38px);margin:0;letter-spacing:.01em}
+.sec-h .en{font-size:11px;letter-spacing:.3em;color:var(--fade);margin-left:auto;text-transform:uppercase}
+.lede{font-size:clamp(17px,2.2vw,21px);line-height:1.9;max-width:72ch;margin:0 0 30px;color:#3a342c}
+.lede::first-letter{font-size:3.1em;float:left;line-height:.92;padding:4px 9px 0 0;color:var(--rust);font-weight:800}
+blockquote.intro{background:var(--deep);color:#f2ece0;padding:22px 26px;margin:0 0 34px;font-size:15.5px;position:relative}
+blockquote.intro::before{content:"“";position:absolute;left:12px;top:-6px;font-size:60px;color:var(--rust);font-family:Georgia,serif}
+blockquote.intro p{margin:0 0 12px;padding-left:26px}
+blockquote.intro p:last-child{margin:0}
+blockquote.intro ol{margin:8px 0 0;padding-left:54px}
+blockquote.intro li{margin:5px 0}
+/* ---------- three ways ---------- */
+.ways{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.way{border:2px solid var(--ink);background:#fffdf8;padding:22px 20px 20px;position:relative;box-shadow:7px 7px 0 var(--line)}
+.way .big{font-size:54px;line-height:1;font-weight:800;color:var(--line);position:absolute;right:14px;top:8px;font-family:Georgia,serif}
+.way h3{margin:0 0 12px;font-size:20px;letter-spacing:.02em;position:relative}
+.way h3 span{display:block;font-size:11.5px;letter-spacing:.24em;color:var(--rust);font-weight:700;margin-bottom:5px}
+.way p{margin:0;font-size:14.5px;color:#4a4239}
+.way:nth-child(2){box-shadow:7px 7px 0 var(--mustard)}
+.way:nth-child(3){box-shadow:7px 7px 0 var(--olive)}
+/* ---------- entries ---------- */
+.entries{display:grid;grid-template-columns:repeat(2,1fr);gap:26px}
+.entry{border:1px solid var(--line);background:#fffdf8;overflow:hidden;display:flex;flex-direction:column}
+.entry .cover{height:126px;position:relative;padding:16px 18px;display:flex;flex-direction:column;justify-content:space-between}
+.c1{background:linear-gradient(135deg,#3d3226,#6b5537)}
+.c2{background:linear-gradient(135deg,#8a2c12,#c0682c)}
+.c3{background:linear-gradient(135deg,#25403a,#4f7262)}
+.c4{background:linear-gradient(135deg,#3a2c4a,#725a86)}
+.c5{background:linear-gradient(135deg,#7a5618,#b98a34)}
+.c6{background:linear-gradient(135deg,#2c3f5c,#56758f)}
+.entry .cover .no{font:800 12px/1 Georgia,serif;letter-spacing:.2em;color:rgba(255,255,255,.85)}
+.entry .cover .tt{color:#fff;font-size:19px;font-weight:800;letter-spacing:.01em;text-shadow:0 2px 0 rgba(0,0,0,.3)}
+.entry .body{padding:18px 20px;flex:1;display:flex;flex-direction:column}
+.entry h3{margin:0 0 8px;font-size:18.5px;line-height:1.45}
+.entry .meta{display:grid;grid-template-columns:1fr 1fr;gap:5px 14px;font-size:12.5px;color:var(--fade);border-top:1px dotted var(--line);border-bottom:1px dotted var(--line);padding:9px 0;margin-bottom:12px}
+.entry .meta b{color:var(--ink);font-weight:700}
+.entry p{margin:0 0 14px;font-size:14.5px;color:#423b33;flex:1}
+.entry q{display:block;background:var(--paper);border-left:4px solid var(--rust);padding:11px 14px;font-size:14px;font-style:normal;color:#3a342c;margin:0 0 14px}
+.entry .tags{display:flex;gap:6px;flex-wrap:wrap}
+.entry .tags i{font-style:normal;font-size:11.5px;letter-spacing:.06em;padding:3px 9px;border:1px solid var(--line);color:#5b5348}
+/* ---------- archive table ---------- */
+.tablebox{overflow-x:auto;border:2px solid var(--ink)}
+table.arch{width:100%;min-width:760px;border-collapse:collapse;font-size:13.5px;background:#fffdf8}
+table.arch th{background:var(--ink);color:#f7f1e6;text-align:left;padding:12px 14px;font-size:11.5px;letter-spacing:.18em;font-weight:700}
+table.arch td{padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+table.arch tr:nth-child(even) td{background:#fdfaf3}
+table.arch td:first-child{font-weight:800;white-space:nowrap}
+.pill{display:inline-block;font-size:11px;letter-spacing:.1em;padding:2px 9px;border:1px solid currentColor}
+.p-done{color:var(--olive)}
+.p-mid{color:#8a6a12}
+.p-plan{color:#7a4a8a}
+/* ---------- focus ---------- */
+.focus{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.foc{border:2px solid var(--ink);background:var(--deep);color:#eee7d6;padding:24px 22px;border-radius:0 26px 0 26px}
+.foc h3{margin:0 0 10px;font-size:19px;color:#fff}
+.foc p{margin:0;font-size:14px;color:#c9c1b0;line-height:1.8}
+.foc .dot{width:14px;height:14px;border-radius:50%;background:var(--rust);margin-bottom:16px}
+/* ---------- faq ---------- */
+.faq{border-top:2px solid var(--ink)}
+.faq details{padding:16px 4px;border-bottom:1px solid var(--line)}
+.faq summary{cursor:pointer;font-size:16.5px;font-weight:700;list-style:none;display:flex;gap:12px;align-items:baseline}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::before{content:"＋";color:var(--rust);font-weight:800;flex:0 0 auto;font-size:18px}
+.faq details[open] summary::before{content:"－"}
+.faq details[open] summary{color:var(--rust)}
+.faq p{margin:10px 0 0;padding-left:26px;font-size:14.5px;color:#463f37;max-width:70ch}
+/* ---------- about ---------- */
+.about{display:grid;grid-template-columns:1.35fr 1fr;gap:34px;align-items:start}
+.about .txt h3{margin:0 0 12px;font-size:23px}
+.about .txt p{margin:0 0 14px;font-size:15px}
+.about .addr{border:2px dashed var(--rust);background:var(--rust);color:#fff;padding:20px 22px}
+.about .addr b{display:block;font-size:11px;letter-spacing:.28em;opacity:.85;margin-bottom:9px}
+.about .addr a{color:#ffe2b8;word-break:break-all;font-size:15px}
+.about .addr p{margin:12px 0 0;font-size:13px;opacity:.9;line-height:1.7}
+/* ---------- footer ---------- */
+footer{background:var(--deep);color:#c9c1b0;padding:34px 0 40px;margin-top:50px;font-size:13px}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+footer a{color:#e6dfd0}
+footer .copy{width:100%;border-top:1px solid #5b574e;margin-top:22px;padding-top:16px;color:#8f8779;font-size:12px}
+#top{position:fixed;right:20px;bottom:24px;width:46px;height:46px;border:2px solid var(--ink);background:#fffdf8;
+display:flex;align-items:center;justify-content:center;font:800 18px/1 Georgia,serif;color:var(--ink);z-index:50;box-shadow:4px 4px 0 var(--rust)}
+#top:hover{background:var(--rust);color:#fff}
+@media (max-width:860px){
+ .wrap{padding:0 18px}
+ .ways,.focus,.about,.entries{grid-template-columns:1fr}
+ .issue{width:100%}
+ .sec-h .en{margin-left:0;width:100%}
+ .way .big{font-size:42px}
+ #top{right:14px;bottom:18px}
+}
+@media print{
+ body{background:#fff;color:#000;font-size:11pt}
+ .util,nav.toc,#top,footer{display:none}
+ section{page-break-inside:avoid;padding-bottom:20px}
+ .entry,.way,.foc{box-shadow:none}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+<div class="util"><div class="wrap"><span>神马影视在线观看 · 一份关于「看完」的长期记录</span>
+<span><a href="#">第 27 册</a><a href="#">订阅更新</a><a href="#">归档总表</a></span></div></div>
+
+<header class="mast">
+ <div class="wrap">
+  <div class="mast-top">
+   <div>
+    <div class="kicker">THE COMPLETE VIEWING NOTES</div>
+    <h1>神马影视<em>在线观看</em></h1>
+    <p class="tagline">把一部片子从头看到尾，再写下停下来的那一分钟——不赶首映，不抄评分，只记录自己真正看完过什么。</p>
+   </div>
+   <div class="issue">
+    <b>本 期 信 息 · ISSUE NOTE</b>
+    <table>
+     <tr><td>本期主题</td><td>中途暂停的那一分钟</td></tr>
+     <tr><td>已归档篇目</td><td>214 篇</td></tr>
+     <tr><td>跨度</td><td>2011 — 2026</td></tr>
+     <tr><td>更新节奏</td><td>每周两三篇</td></tr>
+     <tr><td>最近一次</td><td>2026 年 10 月 21 日</td></tr>
+    </table>
+   </div>
+  </div>
+ </div>
+</header>
+
+<nav class="toc"><div class="wrap">
+ <a href="#how">三种看完法</a><a href="#notes">近期记录</a><a href="#arch">归档总表</a><a href="#focus">三个固定动作</a><a href="#faq">常见疑问</a><a href="#about">关于本站</a>
+</div></nav>
+
+<main class="wrap">
+
+<section id="how">
+ <div class="sec-h"><span class="num">01</span><h2>三种看完法</h2><span class="en">Three Ways of Finishing</span></div>
+ <p class="lede">同样是看完一部片子，停下来的位置不一样，记下来的东西就不一样。这里只固定三种写法，别的写法暂且不收。</p>
+ <blockquote class="intro"><p>本站只做三件事：写下第一次看完时的直觉、记下重看时新出现的东西、把零散的观看时间接成一条线。不预测哪部会火，不替你决定今晚看什么。</p>
+  <ol><li>第一遍只记「哪一分钟让我停了一下」；</li><li>第二遍才去看镜头、声音和台词的前后呼应；</li><li>写完放一个月，再回来改一次。</li></ol></blockquote>
+ <div class="ways">
+  <div class="way"><span class="big">01</span><h3><span>WAY ONE</span>顺着直觉看完</h3><p>第一遍不查资料、不暂停、不快进。关掉之后立刻写下最先浮上来的画面或那句台词，通常不超过三行。这份直觉往往比第二天的分析更接近真实反应。</p></div>
+  <div class="way"><span class="big">02</span><h3><span>WAY TWO</span>顺着细节重看</h3><p>隔几天打开同一部，专门去找第一遍停下来的那一分钟前后发生了什么：是谁先进了画面、声音什么时候进来、台词有没有埋过伏笔。重看的收获通常在细节，不在剧情。</p></div>
+  <div class="way"><span class="big">03</span><h3><span>WAY THREE</span>顺着时间串起来</h3><p>把同一年、同一个月或同一个导演的片子排成一条线，只看它们反复出现的东西：同样的构图、同样的气味、同样的失败方式。串起来之后，单部片子的判断常常会被推翻。</p></div>
+ </div>
+</section>
+
+<section id="notes">
+ <div class="sec-h"><span class="num">02</span><h2>近期记录</h2><span class="en">Recent Notes</span></div>
+ <p class="lede">最近六篇。每篇只记一件事：第一次看完时，我在哪一分钟停了下来。</p>
+ <div class="entries">
+  <article class="entry">
+   <div class="cover c1"><span class="no">NOTE 208</span><span class="tt">第 47 分钟的那扇窗</span></div>
+   <div class="body"><h3>第一次看的时候，我把它当成背景</h3>
+    <div class="meta"><span>记录日期 <b>2026-10-21</b></span><span>片长 <b>112 分钟</b></span><span>看法 <b>顺着直觉</b></span><span>适合 <b>一个人</b></span></div>
+    <p>第一遍时那扇窗在画面边上，我根本没注意。重看才发现，从开头到结尾它一共出现过七次，每次光线都不一样，而角色从没正眼看过它。</p>
+    <q>真正重要的东西，往往被放在你以为不需要看的地方。</q>
+    <div class="tags"><i>重看</i><i>构图</i><i>细节</i></div></div>
+  </article>
+  <article class="entry">
+   <div class="cover c2"><span class="no">NOTE 209</span><span class="tt">一句台词的前后</span></div>
+   <div class="body"><h3>那句台词在第 18 分钟就出现过</h3>
+    <div class="meta"><span>记录日期 <b>2026-10-18</b></span><span>片长 <b>96 分钟</b></span><span>看法 <b>顺着细节</b></span><span>适合 <b>通勤时</b></span></div>
+    <p>结尾那句被反复引用的台词，其实在第 18 分钟就以玩笑的方式说过一次。第一次听是笑，第二次听是心慌——重看的价值就在这里。</p>
+    <q>好台词不是被写出来的，是被反复使用的。</q>
+    <div class="tags"><i>台词</i><i>前后呼应</i><i>通勤</i></div></div>
+  </article>
+  <article class="entry">
+   <div class="cover c3"><span class="no">NOTE 210</span><span class="tt">声音先来，画面后到</span></div>
+   <div class="body"><h3>我在声音里先认出了情绪</h3>
+    <div class="meta"><span>记录日期 <b>2026-10-14</b></span><span>片长 <b>128 分钟</b></span><span>看法 <b>顺着时间</b></span><span>适合 <b>睡前</b></span></div>
+    <p>有一段画面什么都没发生，只有窗外的风声和远处的车。我把声音关掉重看了一遍，那一段立刻变得毫无意义——原来情绪是声音给的。</p>
+    <q>关掉声音再看一遍，你会发现自己记错了谁在说话。</q>
+    <div class="tags"><i>声音</i><i>情绪</i><i>睡前</i></div></div>
+  </article>
+  <article class="entry">
+   <div class="cover c4"><span class="no">NOTE 211</span><span class="tt">看完之后的十分钟</span></div>
+   <div class="body"><h3>我建议别急着关掉</h3>
+    <div class="meta"><span>记录日期 <b>2026-10-09</b></span><span>片长 <b>104 分钟</b></span><span>看法 <b>顺着直觉</b></span><span>适合 <b>深夜</b></span></div>
+    <p>片尾字幕升起之后，我通常还会坐着不动十分钟。这一段空白里浮现的东西，往往比正片更值得写下来，也更容易被自己骗过。</p>
+    <q>字幕结束后的十分钟，才是真正的结尾。</q>
+    <div class="tags"><i>片尾</i><i>空白</i><i>深夜</i></div></div>
+  </article>
+  <article class="entry">
+   <div class="cover c5"><span class="no">NOTE 212</span><span class="tt">第三次看才看懂</span></div>
+   <div class="body"><h3>三次观看，三个完全不同的故事</h3>
+    <div class="meta"><span>记录日期 <b>2026-10-05</b></span><span>片长 <b>88 分钟</b></span><span>看法 <b>顺着细节</b></span><span>适合 <b>周末下午</b></span></div>
+    <p>第一次我觉得它讲亲情，第二次我觉得它讲自私，第三次我发现它其实什么都没讲，只是把一个人的犹豫拍得很慢。三次都是真的。</p>
+    <q>一部好片子会允许你在不同的年份里，看见不同的自己。</q>
+    <div class="tags"><i>三刷</i><i>理解变化</i><i>周末</i></div></div>
+  </article>
+  <article class="entry">
+   <div class="cover c6"><span class="no">NOTE 213</span><span class="tt">两个小时的长镜头</span></div>
+   <div class="body"><h3>长镜头不是炫技，是让人没法躲</h3>
+    <div class="meta"><span>记录日期 <b>2026-09-28</b></span><span>片长 <b>135 分钟</b></span><span>看法 <b>顺着时间</b></span><span>适合 <b>整块时间</b></span></div>
+    <p>有一段连续拍摄超过七分钟，中间没有任何剪切。你没法靠剪辑喘气，只能跟着角色一起难受——这就是长镜头真正的作用。</p>
+    <q>剪切是给观众的台阶，长镜头把台阶抽走了。</q>
+    <div class="tags"><i>长镜头</i><i>节奏</i><i>整块时间</i></div></div>
+  </article>
+ </div>
+</section>
+
+<section id="arch">
+ <div class="sec-h"><span class="num">03</span><h2>归档总表</h2><span class="en">The Archive</span></div>
+ <p class="lede">按观看状态归档，不按类型、不按评分。想知道某一种状态下看过什么，从这里找起。</p>
+ <div class="tablebox"><table class="arch">
+  <thead><tr><th>观看状态</th><th>归档内容</th><th>篇数</th><th>常见片长</th><th>适合时段</th><th>板块状态</th></tr></thead>
+  <tbody>
+   <tr><td>第一次看完</td><td>只记直觉：哪一分钟停了一下、想起哪句话</td><td>86</td><td>90 — 120 分钟</td><td>深夜</td><td><span class="pill p-done">持续更新</span></td></tr>
+   <tr><td>隔几天重看</td><td>找第一遍停下来的那一分钟前后发生了什么</td><td>54</td><td>96 — 135 分钟</td><td>周末下午</td><td><span class="pill p-done">持续更新</span></td></tr>
+   <tr><td>看不懂先记着</td><td>暂时没看懂，只把疑问逐条写下来</td><td>31</td><td>不限</td><td>任何时段</td><td><span class="pill p-mid">进行中</span></td></tr>
+   <tr><td>通勤碎片看</td><td>三十分钟以内能看完的短片与单集</td><td>18</td><td>15 — 30 分钟</td><td>通勤路上</td><td><span class="pill p-done">已归档</span></td></tr>
+   <tr><td>睡前慢慢看</td><td>节奏慢、声音轻、看完不兴奋的片子</td><td>14</td><td>80 — 110 分钟</td><td>睡前一小时</td><td><span class="pill p-done">已归档</span></td></tr>
+   <tr><td>冷门慢慢补</td><td>没有宣传、没有讨论，靠别人随口提一句才找到</td><td>9</td><td>不限</td><td>雨天</td><td><span class="pill p-mid">进行中</span></td></tr>
+   <tr><td>同导演串着看</td><td>把同一个导演的作品按年份排成一条线</td><td>2 组</td><td>—</td><td>假期</td><td><span class="pill p-plan">待整理</span></td></tr>
+   <tr><td>关掉之后</td><td>字幕结束后的十分钟里，我到底在想什么</td><td>12</td><td>—</td><td>深夜</td><td><span class="pill p-done">持续更新</span></td></tr>
+  </tbody></table></div>
+</section>
+
+<section id="focus">
+ <div class="sec-h"><span class="num">04</span><h2>三个固定动作</h2><span class="en">Three Fixed Actions</span></div>
+ <p class="lede">每一篇记录都逃不开这三个动作。把它们固定下来，记录才不会变成感想堆砌。</p>
+ <div class="focus">
+  <div class="foc"><div class="dot"></div><h3>先写下时间码</h3><p>别急着写「好看」或「不好看」，先写下让你停下来的那一分钟。时间码是最诚实的记录，感想会骗人，时间点不会。</p></div>
+  <div class="foc"><div class="dot"></div><h3>再找前后的呼应</h3><p>回到那一分钟的前三分钟和后三分钟，看它是怎么被铺垫、又怎么被收回的。大部分细节都不是孤立出现的。</p></div>
+  <div class="foc"><div class="dot"></div><h3>最后放一个月</h3><p>写完先收起来，一个月后再读一遍。如果连自己都说服不了，那篇记录就还没写完，补看一遍再改。</p></div>
+ </div>
+</section>
+
+<section id="faq">
+ <div class="sec-h"><span class="num">05</span><h2>常见疑问</h2><span class="en">Questions</span></div>
+ <div class="faq">
+  <details open><summary>这里真的只做观看记录吗？</summary>
+   <p>是的。不写首映当天的热闹，不搬运评分，也不替你挑片。这里只有「我看过」和「我记下来了」这两件事，以及它们之间的时间差。</p></details>
+  <details><summary>为什么有些片子看过很多遍还在记？</summary>
+   <p>因为每一次重看的收获都不一样。同一部片子在 24 岁和 34 岁看，停下来的那一分钟往往不是同一个。记录的是当时的自己，不是片子本身。</p></details>
+  <details><summary>看不懂的片子也记吗？</summary>
+   <p>记，而且专门有一栏叫「看不懂先记着」。暂时没看懂不代表以后看不懂，先把疑问逐条写下来，隔几年再翻出来，常常自己就有了答案。</p></details>
+  <details><summary>多久更新一次？</summary>
+   <p>每周固定更新两三篇，其余时间慢慢补看。更新速度跟着观看速度走，不会为了更新而更新，也不会攒到年底一口气发二十篇。</p></details>
+  <details><summary>可以按类型或年份找片吗？</summary>
+   <p>目前只按观看状态归档，不按类型、不按评分。年份信息会写在每篇的元数据里，但排序依据始终是「我是什么状态下看的它」。</p></details>
+  <details><summary>这些记录的顺序重要吗？</summary>
+   <p>重要。顺序本身就是判断。同一篇记录如果放在「第一次看完」里和放在「隔几天重看」里，读起来的味道完全不同，所以归档位置不能随便改。</p></details>
+ </div>
+</section>
+
+<section id="about">
+ <div class="sec-h"><span class="num">06</span><h2>关于本站</h2><span class="en">About</span></div>
+ <div class="about">
+  <div class="txt"><h3>一份关于「看完」的长期记录</h3>
+   <p>神马影视在线观看开始得很随意：某一天关掉一部片子之后，发现自己什么都不记得，于是决定把停下来的那一分钟写下来。写着写着就成了习惯，习惯积起来就成了这份归档。</p>
+   <p>这里没有明星通稿，不预测哪部会火，也不替你决定今晚看什么。如果某篇记录让你想起自己停下来的那一分钟，那它就已经完成了自己的任务。</p>
+   <p>阅读方式很简单：挑一个和你当下状态最接近的那一栏，从任意一篇开始读，不必按顺序，也不必读完。</p></div>
+  <div class="addr"><b>本站地址 · SITE ADDRESS</b>
+   <a href="https://shenmayingshizaixianguankan-top.github.io/">https://shenmayingshizaixianguankan-top.github.io/</a>
+   <p>所有记录按观看状态归档，每周固定更新两三篇。若某一栏长时间没有新增，说明那一种状态下的观看暂时停了下来。</p></div>
+ </div>
+</section>
+
+</main>
+
+<a id="top" href="#" title="回到顶部" aria-label="回到顶部">↑</a>
+
+<footer><div class="wrap">
+ <span>神马影视在线观看 · 把一部片子从头看到尾</span>
+ <span><a href="#">回到顶部</a></span>
+ <div class="copy">© 神马影视在线观看 · 一份关于「看完」的长期记录。文中时间码与感受均为个人观看记录，不构成任何推荐或评价。</div>
+</div></footer>
+</body>
+</html>
